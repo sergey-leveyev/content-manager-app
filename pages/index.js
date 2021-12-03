@@ -1,9 +1,17 @@
-import Head from 'next/head'
-import Image from 'next/image'
-
+import Navbar from "../comoinents/Navbar";
+import Resourcehighlight from "../comoinents/ResourceHighlight";
+import NewsLetter from "../comoinents/Newsletter";
+import ResourceList from "../comoinents/ResourceList";
+import Footer from "../comoinents/Footer";
 
 export default function Home() {
   return (
-<h1>hello word</h1>
-  )
+    <>
+      <Navbar />
+      <Resourcehighlight />
+      <NewsLetter />
+      <ResourceList />
+      <Footer />
+    </>
+  );
 }
